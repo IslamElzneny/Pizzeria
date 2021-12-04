@@ -18,6 +18,7 @@ class App extends Component{
          <Route path="/about" component={About} />
          <Route path="/offers" component={Offers} />
          <Route path="/contact" component={Contact} />
+         <Route path="*" component={Home} />
       </BrowserRouter>
     )
   }
